@@ -1,8 +1,267 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    background: url(https://imageup.ru/img233/3932246/809524.jpg);
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-attachment: fixed;
+}
+
+#content {
+    display: flex;
+}
+
+aside {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    padding-top: 2em;
+    padding-bottom: 1.4em;
+}
+
+.img-border {
+    border-radius: 50%;
+    border-color: rgb(78, 166, 255);
+    border-width: 0.3em;
+    border-style: solid;
+    width:70%;
+    margin-left: 2.6em;
+    margin-bottom: 1em;
+}
+
+.skills {
+    font-family: 'Monda', sans-serif;
+    font-size: 1.4em;
+    color: rgb(78, 166, 255);
+    font-weight: lighter;
+    margin-bottom: -1em;
+}
+
+.languages {
+    font-family: 'IBM Plex Serif', serif;
+    color: rgb(225, 225, 225);
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: -1.5em;
+}
+
+#progress-bar {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    justify-content: space-around;
+}
+
+#progress-name {
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Serif', serif;
+    color: rgb(200, 200, 200);
+    font-size: 1em;
+    justify-content: center;
+}
+
+#languages-status {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.software {
+    font-family: 'IBM Plex Serif', serif;
+    color: rgb(225, 225, 225);
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: -1.5em;
+    margin-top: -1em;
+}
+
+progress {
+    border: none;
+    width: 7em;
+    height: 0.65em;
+    background: rgb(255, 214, 223);
+}
+
+progress::-webkit-progress-value {
+    background: rgb(78, 166, 255);
+}
+  
+  progress::-webkit-progress-bar {
+    background: rgb(83, 83, 83);
+}
+
+.contact {
+    font-family: 'Monda', sans-serif;
+    font-size: 1.4em;
+    color: rgb(78, 166, 255);
+    font-weight: lighter;
+    margin-bottom: -1em;
+    margin-top: 6em;
+}
+
+.img-contact {
+    border: none;
+    width: 100%;
+}
+
+#contact-status {
+    display: flex;
+    justify-items: center;
+    gap: 0.45em;
+    margin-bottom: -1em;
+}
+
+#icons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 6%;
+}
+
+#contact-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    font-family: 'Monda', sans-serif;
+    color: rgb(200, 200, 200);
+    font-size: 0.8em;
+    justify-content: center;
+}
+
+#contact-status2 {
+    display: flex;
+    justify-items: center;
+    gap: 0.45em;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    padding-top: 3em;
+    padding-bottom: 1.4em;
+}
+
+.mainh1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    word-spacing: 0.5em;
+    color: rgb(70, 70, 70);
+    margin-bottom: -0.3em;
+}
+
+.mainp1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    color: rgb(86, 86, 86);
+    margin-bottom: 3em;
+}
+
+#maincontent1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainp2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+    color: rgb(86, 86, 86);
+    margin-bottom: 2.5em;
+    width: 40em;
+}
+
+.experience {
+    font-family: 'Monda', sans-serif;
+    font-size: 1.4em;
+    color: rgb(48, 110, 255);
+    font-weight: lighter;
+    margin-bottom: 1.5em;
+}
+
+  #maincontent2 {
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Timeline Container */
+.timeline {
+    background: var(--primary-color);
+    margin-left: 0.5em;
+  }
+  
+  /* Outer Layer with the timeline border */
+  .outer {
+    border-left: 0.2em solid rgb(78, 166, 255);
+  }
+  
+  /* Card container */
+  .card {
+    position: relative;
+    margin: 0 0 1em 1em;
+    padding: 1em;
+    color: rgb(86, 86, 86);
+    max-width: 40em;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+  }
+  
+  /* Title of the card */
+  .title {
+    color: rgb(48, 110, 255);
+    position: relative;
+    font-family: 'Monda', sans-serif;
+    font-weight: 400;
+  }
+  
+  /* Timeline dot  */
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 0.5em;
+    height: 0.5em;
+    background: rgb(48, 110, 255);
+    border-radius: 999px;
+    left: -2.2em;
+    border: 0.15em solid rgb(48, 110, 255);
+    top: 0.4em;
+  }
+
+  #all {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-site-footer {
+    display: flex;  
+    background-color: rgb(78, 166, 255);
+    justify-content: center;
+    color: rgb(63, 63, 63);
+    font-size: 0.8em;
+    padding: 0.15em;
+  }
+
+  hr.new1 {
+    width: 0.38em;
+    background-color: rgb(78, 166, 255);
+    border: 0;
+  }
